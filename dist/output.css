@@ -472,8 +472,32 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-top: 5rem;
 }
 
+.mt-10 {
+  margin-top: 2.5rem;
+}
+
+.mr-60 {
+  margin-right: 15rem;
+}
+
+.mt-16 {
+  margin-top: 4rem;
+}
+
 .mt-40 {
   margin-top: 10rem;
+}
+
+.ml-40 {
+  margin-left: 10rem;
+}
+
+.mb-20 {
+  margin-bottom: 5rem;
+}
+
+.ml-20 {
+  margin-left: 5rem;
 }
 
 .mr-20 {
@@ -484,32 +508,16 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-right: 10rem;
 }
 
-.mr-60 {
-  margin-right: 15rem;
+.mr-10 {
+  margin-right: 2.5rem;
 }
 
-.mt-10 {
-  margin-top: 2.5rem;
+.ml-10 {
+  margin-left: 2.5rem;
 }
 
-.mr-80 {
-  margin-right: 20rem;
-}
-
-.mr-96 {
-  margin-right: 24rem;
-}
-
-.mt-16 {
-  margin-top: 4rem;
-}
-
-.mb-20 {
-  margin-bottom: 5rem;
-}
-
-.ml-20 {
-  margin-left: 5rem;
+.ml-24 {
+  margin-left: 6rem;
 }
 
 .flex {
@@ -528,16 +536,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   justify-content: center;
 }
 
-.space-y-16 > :not([hidden]) ~ :not([hidden]) {
+.space-y-20 > :not([hidden]) ~ :not([hidden]) {
   --tw-space-y-reverse: 0;
-  margin-top: calc(4rem * calc(1 - var(--tw-space-y-reverse)));
-  margin-bottom: calc(4rem * var(--tw-space-y-reverse));
-}
-
-.space-y-60 > :not([hidden]) ~ :not([hidden]) {
-  --tw-space-y-reverse: 0;
-  margin-top: calc(15rem * calc(1 - var(--tw-space-y-reverse)));
-  margin-bottom: calc(15rem * var(--tw-space-y-reverse));
+  margin-top: calc(5rem * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(5rem * var(--tw-space-y-reverse));
 }
 
 .space-y-80 > :not([hidden]) ~ :not([hidden]) {
@@ -546,20 +548,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-bottom: calc(20rem * var(--tw-space-y-reverse));
 }
 
-.space-y-6 > :not([hidden]) ~ :not([hidden]) {
+.space-y-16 > :not([hidden]) ~ :not([hidden]) {
   --tw-space-y-reverse: 0;
-  margin-top: calc(1.5rem * calc(1 - var(--tw-space-y-reverse)));
-  margin-bottom: calc(1.5rem * var(--tw-space-y-reverse));
-}
-
-.space-x-16 > :not([hidden]) ~ :not([hidden]) {
-  --tw-space-x-reverse: 0;
-  margin-right: calc(4rem * var(--tw-space-x-reverse));
-  margin-left: calc(4rem * calc(1 - var(--tw-space-x-reverse)));
-}
-
-.border {
-  border-width: 1px;
+  margin-top: calc(4rem * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(4rem * var(--tw-space-y-reverse));
 }
 
 .border-2 {
